@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        Metronic "Acidus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+
+        <title>W. Migliari</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+
+
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body>
+    <!--========== HEADER ==========-->
+      <header class="header">
+          <!-- Navbar -->
+          <nav class="navbar" role="navigation">
+              <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="menu-container">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="toggle-icon"></span>
+                      </button>
+
+                      <!-- Logo -->
+                      <div class="navbar-logo">
+                          <a class="navbar-logo-wrap" href="index.html">
+                              <img class="navbar-logo-img" src="img/polos_logo.png" alt="Polos Logo">
+                          </a>
+                      </div>
+                      <!-- End Logo -->
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse nav-collapse">
+                      <div class="menu-container">
+                          <ul class="navbar-nav navbar-nav-right">
+                              <!-- Dados -->
+                              <li class="nav-item">
+                                  <a class="nav-item-child" href="dados.html" target = "_blank">
+                                      Dados
+                                  </a>
+                              </li>
+                              <!-- End Dados -->
+
+                              <!-- Mapas -->
+                              <li class="nav-item">
+                                  <a class="nav-item-child active" href="mapas.html">
+                                      Mapas
+                                  </a>
+                              </li>
+                              <!-- End Mapas -->
+
+                              <!-- Pesquisa -->
+                              <li class="nav-item">
+                                  <a class="nav-item-child" href="pesquisa.html" target = "_blank">
+                                      Pesquisa & Extensão
+                                  </a>
+                              </li>
+                              <!-- End Pesquisa -->
+
+                              <!-- English -->
+                              <li class="nav-item">
+                                  <a class="nav-item-child" href="index.html" target = "_blank">
+                                      English
+                                  </a>
+                              </li>
+                              <!-- English -->
+
+                              <!-- Icons -->
+                              <li class="nav-item">
+                                <a class="nav-item-child" href="https://www.instagram.com/polosdecidadania/" target="_blank"><i class="fa fa-2x fab fa-instagram"></i></i>
+                              </a>
+                              </li>
+                              <!-- End Icons -->
+
+                          </ul>
+                      </div>
+                  </div>
+                  <!-- End Navbar Collapse -->
+              </div>
+          </nav>
+          <!-- Navbar -->
+      </header>
+      <!--========== END HEADER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Slider -->
+        <div class="bg-color-sky-light">
+            <div class="content-md container">
+
+                      <h2>Mapas & Dinâmicas Urbanas</h2>
+                      <p><p>Esta seção contém uma lista de mapas relacionados a dinâmicas urbanas. Selecione um deles no menu a
+                        seguir para ver os assentamentos periféricos nas capitais dos estados brasileiros. Os shapefiles foram extraídos
+                        da página do <a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads" style="color:steelblue" target="_blank">IBGE</a>.</p></p>
+
+                      <label for="area"></label>
+
+                      <form onsubmit="this.action = document.getElementById('filename').value">
+                        <select id="filename">
+                            <option value="" selected>--Selecione um mapa e clique no botão consultar--</option>
+                            <option value="img/macacos_minas.png"> PNG - Extração de Minério em Macacos</option>
+                            <option value="img/qgis_assent_bh_peri1.png"> PNG - Belo Horizonte - Assentamentos Periféricos</option>
+                            <option value="img/qgis_assent_sp_peri2.png"> PNG - São Paulo - Assentamentos Periféricos</option>
+                            <option value="img/macacos_minas.pdf"> PDF - Extração de Minério em Macacos</option>
+                            <option value="img/qgis_assent_bh_peri1.pdf"> PDF - Belo Horizonte - Assentamentos Periféricos</option>
+                            <option value="img/qgis_assent_sp_peri2.pdf"> PDF - São Paulo - Assentamentos Periféricos</option>
+                        </select>
+                        <input type="submit" value="Consultar" class="grey-btn" />
+
+                      <!--<button class="btn"><i class="fa fa-download"></i> Download</button>-->
+                      </form>
+
+                      <h1></h1>
+                      <img class="img-responsive" src="img/ms_bh.png" alt="Slider Image">
+            </div>
+        </div>
+        <!-- End Slider -->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/polos_logo.png" alt="Polos Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p class="margin-b-0"><a class="fweight-700" href="https://polosdecidadania.com.br/" target = "_blank">
+                        &copy; Polos de Cidadania</a> Análise de Dados e Pesquisa W. Migliari (2021)<a class="fweight-700" href=""></a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+
+    <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+
+    <script>
+        let selectText = (ele) => {
+          let msg = document.getElementById('msg');
+            msg.innerHTML = 'Selected Text: <b>' + ele.options[ele.selectedIndex].text + '</b> </br>' +
+                'Value of the Selected Text: <b>' + ele.value + '</b>';
+        }
+    </script>
+
+
+    <script type="text/javascript">
+
+      function download() {
+          //get the filename from the selected item
+          var sel = document.forms[0].files[document.forms[0].files.selectedIndex].value;
+          //redirect to this file
+          document.location = sel;
+      }
+
+    </script>
+
+
+</html>

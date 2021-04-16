@@ -120,17 +120,25 @@
         <!-- Map -->
         <div class="bg-color-sky-light">
             <div class="content-md container">
-              <h2>População de Rua</h2>
-                <img class="img-responsive" src="img/ms_bh.png" alt="Slider Image">
+              <div >
+                <h2>População de Rua</h2>
+                <p><b><b></p>
 
+                <form name="change">
+                  <SELECT NAME="options" style="width:280px;" ONCHANGE="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
+                  <option value="mrmg.html">Estado de Minas Gerais/Municípios</option>
+                  <option value="mrbr.html">Brasil/Estados da Federação</option>
+                  </SELECT>
+
+                  <h1></h1>
+
+                  <iframe name="iframe" id="youriframe" src="mrmg.html" width=100% height=400px frameBorder="0"></iframe>
+                  <p>Fonte: <a href="https://cecad.cidadania.gov.br/agregado/resumovariavelCecad.php?uf_ibge=31&nome_estado=&p_ibge=3106200&nome_municipio=Belo+Horizonte&id=44" target="i_blank"> Cadastro Único<a/>
+              </div>
         <!-- End Map -->
 
                       <br><br/>
-                      <p>A cartografia acima mostra os assentamentos periféricos em torno do centro da cidade de Belo Horizonte.
-                      Os eixos radiais com algumas sinuosidades conectam a região central às áreas periféricas. O mapa nos auxilia
-                      a compreender as relações entre as populações socioeconomicamente mais vulneráveis e a exclusão espacial.
-                      Embora pouco evidente, um estudo realizado pelo Instituto de Pesquisas Econômicas Aplicadas (IPEA)
-                      revela uma correlação significante entre populações de rua no Brasil e famílias em situação de pobreza.</p>
+                      <p></p>
                       <br><br/>
 
 

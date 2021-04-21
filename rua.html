@@ -125,14 +125,35 @@
                 <p><b><b></p>
 
                 <form name="change">
-                  <SELECT NAME="options" style="width:280px;" ONCHANGE="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
-                  <option value="mrmg.html">Estado de Minas Gerais/Municípios</option>
-                  <option value="mrbr.html">Brasil/Estados da Federação</option>
-                  </SELECT>
+                  <select NAME="options" style="width:480px;" ONCHANGE="document.getElementById('youriframe').src = this.options[this.selectedIndex].value">
+                  <option value="mr_totais_municipios_mg.html" selected>Total de Pessoas em Situação de Rua, Minas Gerais, Municípios</option>
+                  <option value="mr_totais_regiao.html">Total de Pessoas em Situação de Rua, Regiões</option>
+                  <option value="mr_perc_negros_pardos_regiao.html">Percentual de Pessoas Negras & Pardas em Situação de Rua, Regiões</option>
+                  <option value="mr_perc_negros_regiao.html">Percentual de Pessoas Negras em Situação de Rua, Regiões</option>
+                  <option value="mr_perc_pardos_regiao.html">Percentual de Pessoas Pardas em Situação de Rua, Regiões</option>
+                  <option value="mrregiao_cor_fem_total.html">Total de Moradoras em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_cor_fem_perc.html">Percentual de Moradoras em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_cor_m_total.html">Total de Moradores em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_cor_m_perc.html">Percentual de Moradores em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_cor_total.html">Total de Pessoas em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_cor_perc.html">Percentual de Pessoas em Situação de Rua, Cor, Regiões</option>
+                  <option value="mrregiao_faixa_eta_total.html">Total de Pessoas em Situação de Rua, Faixa Etária, Regiões</option>
+                  <option value="mrregiao_faixa_eta_perc.html">Percentual de Pessoas em Situação de Rua, Faixa Etária, Regiões</option>
+                  <option value="mr_totais_estados.html">Total de Pessoas em Situação de Rua, Estados</option>
+                  <option value="mrcetnia_total.html">Total de Pessoas em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcetnia_f_total.html">Total de Moradoras em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcetnia_m_total.html">Total de Moradores em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcetnia_perc.html">Percentual de Pessoas em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcetnia_f_perc.html">Percentual de Moradoras em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcetnia_m_perc.html">Percentual de Moradores em Situação de Rua, Cor, Capitais</option>
+                  <option value="mrcfaixa_etaria_total.html">Total de Pessoas em Situação de Rua, Faixa Etária, Capitais</option>
+                  <option value="mrcfaixa_etaria_perc.html">Percentual de Pessoas em Situação de Rua, Faixa Etária, Capitais</option>
 
+                  </select>
+                </form>
                   <h1></h1>
 
-                  <iframe name="iframe" id="youriframe" src="mrmg.html" width=100% height=400px frameBorder="0"></iframe>
+                  <iframe name="iframe" id="youriframe" src="mrmg.html" width=100% height=600px frameBorder="0"></iframe>
                   <p>Fonte: <a href="https://cecad.cidadania.gov.br/agregado/resumovariavelCecad.php?uf_ibge=31&nome_estado=&p_ibge=3106200&nome_municipio=Belo+Horizonte&id=44" target="i_blank"> Cadastro Único<a/>
               </div>
         <!-- End Map -->
